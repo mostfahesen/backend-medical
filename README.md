@@ -58,3 +58,18 @@ CONSTRAINT fk_Doctor_patient
     FOREIGN KEY (doctor_id)
     REFERENCES patient(recid)  
 );
+
+///////////////////////////////
+emaple>>
+url >> http://localhost:8086/doctor/v2.0/adddoctor >> method post
+json object request >> 
+{
+    "name":"drhussien",
+    "specialization":"Heart",
+    "governorate":"giza",
+    "area":"haram"
+   }
+   
+response >> true
+////////////////////////////////
+
